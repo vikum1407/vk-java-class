@@ -9,6 +9,8 @@ public class CheckVowels {
     }
 
     public static boolean stringContainsVowels(String input){
+
+        //return input.toLowerCase().matches(".*[aeiou].*");
         return input.toLowerCase().matches(".*[aeiou].*");
     }
 }

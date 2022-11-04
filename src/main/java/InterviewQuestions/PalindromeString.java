@@ -15,9 +15,16 @@ public class PalindromeString {
 
         String rev="";
 
-        for (int i=0; i<userString.length(); i++){
+
+        for (int i=userString.length()-1; i>=0; i--){
             rev=rev+userString.charAt(i);
+            //System.out.println(rev);
         }
-        System.out.println(rev);
+       // System.out.println(rev);
+        if (org_String.equals(rev)){
+            System.out.println(org_String+" is a Palindrome String");
+        }else {
+            System.out.println(org_String+" is a not Palindrome String");
+        }
     }
 }

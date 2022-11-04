@@ -1,24 +1,35 @@
 package Practics;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class StringArray {
 
-    public static void strReverse(String[] str){
-        List<String> StrList = Arrays.asList(str);
+    public static boolean canSegmentString(String s, Set<String> dictionary){
 
-        Collections.reverse(StrList);
+        for (int i=1; i<=s.length(); i++){
+            String first = s.substring(0,i);
+            if(dictionary.contains(first)){
+                String second = s.substring(i);
 
-        String[] reverseArr = StrList.toArray(str);
+                if (second == null || second.length() == 0 || dictionary.contains(second) || canSegmentString(second, dictionary)){
+                    return true;
+                }
+            }
+        }
+        return false;
 
     }
 
+    public static void main(String[] args) {
+        Set<String> dictionary = new HashSet<String>();
+        String s = new String();
+        s = "hellonow";
 
-    public static void main(String args[]){
-        String[] strArr = {"SL","India","AUS"};
-        strReverse(strArr);
+        dictionary.add("hellow");
+        dictionary.add("hell");
+        dictionary.add("on");
+        dictionary.add("now");
+
 
     }
 }

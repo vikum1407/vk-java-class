@@ -1,25 +1,28 @@
 package Practics;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class practisePlace {
 
-    public static int missingMethod(int array[]){
-
-        int n = array.length +1;
-
-        int sum=n*(n+1)/2;
-
-        int revSum=0;
-        for (int i=0; i<array.length; i++){
-            revSum+=array[i];
-        }
-
-        int MissingNo = sum - revSum;
-
-        return MissingNo;
-    }
-
     public static void main(String[] args) {
-        int[] arr = {1,2,3,5,6,7,8,9};
-        System.out.println("Missing No is: "+missingMethod(arr));
+
+        System.out.println("Enter Your No: ");
+        Scanner sc = new Scanner(System.in);
+
+        int num=sc.nextInt();
+        int org_num=num;
+
+        int rev=0;
+        while (num!=0) {
+            rev = rev * 10 + num % 10;
+            num = num / 10;
+        }
+            if (org_num==rev){
+                System.out.println("Palindrom");
+        }else {
+                System.out.println("Not a Palindrom");
+            }
+
     }
 }

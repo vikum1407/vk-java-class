@@ -7,22 +7,19 @@ public class practisePlace {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter Your No: ");
-        Scanner sc = new Scanner(System.in);
+       int a[] = {1,2,3,3,4,5,6};
 
-        int num=sc.nextInt();
-        int org_num=num;
+       boolean flag=false;
 
-        int rev=0;
-        while (num!=0) {
-            rev = rev * 10 + num % 10;
-            num = num / 10;
-        }
-            if (org_num==rev){
-                System.out.println("Palindrom");
-        }else {
-                System.out.println("Not a Palindrom");
-            }
+       for (int i=0; i<a.length; i++){
+           for (int j=i+1; j<a.length; j++){
+               if (a[i]==a[j] && i!=j){
+                   System.out.println("There is a duplicate value!!!"+a[i]);
+                    break;
+               }
+           }
+       }
+        System.out.println("There is no duplicate value!!!");
 
     }
 }

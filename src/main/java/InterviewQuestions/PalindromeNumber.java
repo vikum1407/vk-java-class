@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class PalindromeNumber {
     public static void main(String[] args) {
 
+        /*
+        * Eg: 121
+        * when we get reverse it, it's same as the original one. called as palindrome number
+        * */
+
         //Get the user input
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number Series: ");

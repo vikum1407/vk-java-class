@@ -6,6 +6,42 @@ import java.util.Iterator;
 public class HashSetMethods {
     public static void main(String[] args) {
 
+        /*
+         *   * Mostly Hashset is using for Searching kind of things
+         *
+         *   Hashset Characteristic:-
+         *       - Duplicates are not allowed
+         *       - Insertion order is not preserved
+         *       - Hectrogenuius data supported
+         *       - Null supported
+         *
+         *   Hashset Methods:-
+         *       - hs.add()
+         *       - hs.addAll()
+         *       - hs.get()
+         *       - hs.set()
+         *       - hs.remove()
+         *       - hs.removeAll()
+         *       - hs.contains()
+         *       - hs.isEmpty()
+         *
+         *   Hashset Data retrieve:-
+         *       - for loop
+         *       - For each loop
+         *       - Iterator
+         *
+         *   Hashset Specific Methods:- when comparing two hashsets
+         *       - hs.addAll() -> Union
+         *       - hs.retainAll() -> Intersection
+         *       - hs.removeAll() -> Difference
+         *       - hs.containsAll() -> subset
+         *
+         *      - Sorting:-
+         *          - Collections.sort()
+         *          - Collections.shuffle()
+         *
+         * */
+
         HashSet hs = new HashSet();
 
         //Add elements to the HashSet

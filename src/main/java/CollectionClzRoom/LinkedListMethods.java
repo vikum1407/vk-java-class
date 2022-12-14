@@ -6,6 +6,44 @@ import java.util.LinkedList;
 public class LinkedListMethods {
     public static void main(String[] args) {
 
+        /*
+         *   LinkedList -
+         *   - It's duplicate value is accepted
+         *   - Hetrogenius data allowed
+         *   - Insetion order is preserved
+         *
+         *  **** LinkedList mostly use for insertion due to it's saving between value's address
+         *
+         *   Methods -
+         *   - ll.add() -> To add element
+         *   - ll.get() -> To retrieve the element
+         *   - ll.remove() -> to remove the element
+         *   - ll.set() -> To replace
+         *   - ll.contains() -> To check the element
+         *   - ll.containsAll() -> To compare two LinkedList
+         *   - ll.isEnable() -> To check the list is emptyness
+         *   - ll.removeAll() -> To remove collection
+         *
+         * Special Methods -
+         *   - ll.getFirst() -> To get first element
+         *   - ll.getLast() -> To get Last element
+         *   - ll.addFirst()
+         *   - ll.addLast()
+         *   - ll.removeFirst()
+         *   - ll.removeLast()
+         *
+         * Sorting   -
+         *   - Collections.sort(ll) -> To sort a linkedList
+         *   - Collections.sort(ll,Collections.reverseOrder()) -> To sort in reverse order
+         *   - Collections.shuffle ->  To shuffle the list
+         *
+         * Data Retrieve -
+         *   - For loop
+         *   - For each loop
+         *   - Iterator
+         *
+         * */
+
 //Add elements to the LinkedList
         LinkedList ll3 = new LinkedList();
         ll3.add(1000);

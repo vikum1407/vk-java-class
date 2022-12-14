@@ -8,6 +8,34 @@ public class ArrayListMethods {
 
     public static void main(String[] args) {
 
+        /*
+         * ArrayList Methods -
+         *   - ls.add()->To add elements,
+         *   - ls.remove() -> To remove element,
+         *   - ls.set() -> To replace element,
+         *   - ls.get() -> To retrieve element,
+         *   - ls.contains() -> To search element,
+         *   - ls.isEmpty() -> To search element
+         *   - ls.addAll(Collection c) ->. To add collection
+         *   - ls.removeAll(Collection c) -> To remove a collection
+         *
+         * **** LinkedList mostly use for retrievings due to it's index saving, insertion will be bit performance hit
+         *
+         *   ---Sorting Methods---
+         *   - Collections.sort(collection c) -> To sort a collection on accessding order
+         *   - Collections.sort(collection c, Collections.reverseOrder()) -> To sort a collection from decending order
+         *
+         *   ----Data retrieve from ArrayList
+         * * Here explain how to read the data from ArrayList
+         *   1. for loop
+         *   2. for .. each loop
+         *   3. iterator
+         *       - Iterator it = al.iterator();
+         *         while(al.hasNext()){
+         *           }
+         */
+
+
         ArrayList al = new ArrayList();
 
         // Add elements to the arrayList
@@ -81,6 +109,9 @@ public class ArrayListMethods {
         *   1. for loop
         *   2. for .. each loop
         *   3. iterator
+        *       - Iterator it = al.iterator();
+        *         while(al.hasNext()){
+        *           }
         * */
 
         // 1. for loop
@@ -99,7 +130,7 @@ public class ArrayListMethods {
         System.out.println("****Using Iterator Loop******");
         Iterator it = al.iterator(); // from the ready each element fom arraylist
         while (it.hasNext()){
-            System.out.println(it.next());
+            System.out.println(it.hasNext());
         }
 
 

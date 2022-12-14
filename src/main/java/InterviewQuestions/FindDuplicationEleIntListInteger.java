@@ -12,7 +12,7 @@ public class FindDuplicationEleIntListInteger {
             {
                 if ((names[i] == names[j]) && (i != j))
                 {
-                    System.out.println("Duplicate Element" +names[j]);
+                    System.out.println("Duplicate Element: " +names[j]);
                 }
             }
         }

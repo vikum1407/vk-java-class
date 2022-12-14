@@ -9,6 +9,7 @@ public class ArrayListDefineTypes {
     ArrayList al = new ArrayList();
     /*
     *   * Here we can store hetrogenius data(any kind of data type u can store)
+    *   * Insertion order preserved
     *   * Duplicate value u can store
     * */
 

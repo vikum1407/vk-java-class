@@ -16,7 +16,8 @@ public class StringMethods {
         System.out.println("Selected Characters: "+str.charAt(3));
 
         // 03. String substring (int i): Return the substring from the ith  index character to end.
-        System.out.println("Starting from(ignore character which mentioned): "+str.substring(2));
+        System.out.println("Starting from(ignore character which mentioned): "+str.substring(2)); //mbuwala
+        System.out.println("Starting from(ignore character which mentioned): "+str.substring(0,2)); //Bo
 
         // 04. String substring (int i, int j): Returns the substring from i to j-1 index.
         System.out.println("Starting and ending: "+str.substring(1,4)); //omb
@@ -36,7 +37,7 @@ public class StringMethods {
 
         // 07. int indexOf (String s, int i): Returns the index within the string of the first occurrence of the specified string, starting at the specified index.
         String a = "Learn Share Learn";
-        int in = a.indexOf("are",3);
+        int in = a.indexOf("are",3); //6
         System.out.println(in); //8
 
         // 08. Int lastIndexOf( String s): Returns the index within the string of the last occurrence of the specified string
@@ -71,7 +72,7 @@ public class StringMethods {
 
         // 14.  String replace (char oldChar, char newChar): Returns new string by replacing all occurrences of oldChar with newChar.
         String bom = "Bombuwala";
-        System.out.println("Replacement: "+bom.replace('B','V'));
+        System.out.println("Replacement: "+bom.replace('B','V')); //Vombuwala
 
 
         //**** Compare strings ****
@@ -86,7 +87,7 @@ public class StringMethods {
         String val1 = "Vikum";
         String val2 = "Vikum";
         System.out.println("Equals: "+val1.equals(val2)); //true
-        System.out.println("== operator using: "+val1==val2); //false because both value has two difference address
+        System.out.println("== operator using: "+val1==val2); //false because both value has two difference reference address
 
         //2. EqualIgnoreCase()
         System.out.println("EqualIgnoreCase: "+val1.equalsIgnoreCase(val2));

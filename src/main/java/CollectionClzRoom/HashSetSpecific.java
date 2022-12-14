@@ -27,18 +27,18 @@ public class HashSetSpecific {
 
         // Union
         set1.addAll(set2);
-        System.out.println("Union Elements"+set1);
+        System.out.println("Union Elements"+set1); //[1, 2, 3, 4, 5, 6]
 
         //Intersection
         set1.retainAll(set2);
-        System.out.println("Intersection Elements: "+set1);
+        System.out.println("Intersection Elements: "+set1); //[4, 5, 6]
 
         //Difference
         set1.removeAll(set2);
-        System.out.println("Difference Elements: "+set1);
+        System.out.println("Difference Elements: "+set1); //[]
 
         //Subset -> boolean
         set1.containsAll(set2);
-        System.out.println("Subset of elements: "+set1.containsAll(set2)); // 1,2,3,6
+        System.out.println("Subset of elements: "+set1.containsAll(set2)); // false
     }
 }

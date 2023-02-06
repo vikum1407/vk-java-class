@@ -19,11 +19,11 @@ public class ArrayListMethods {
          *   - ls.addAll(Collection c) ->. To add collection
          *   - ls.removeAll(Collection c) -> To remove a collection
          *
-         * **** LinkedList mostly use for retrievings due to it's index saving, insertion will be bit performance hit
+         * **** LinkedList mostly use for retrieving due to it's index saving, insertion will be bit performance hit
          *
          *   ---Sorting Methods---
-         *   - Collections.sort(collection c) -> To sort a collection on accessding order
-         *   - Collections.sort(collection c, Collections.reverseOrder()) -> To sort a collection from decending order
+         *   - Collections.sort(collection c) -> To sort a collection on ascending order
+         *   - Collections.sort(collection c, Collections.reverseOrder()) -> To sort a collection from descending order
          *
          *   ----Data retrieve from ArrayList
          * * Here explain how to read the data from ArrayList

@@ -15,11 +15,11 @@ public class ReverseStringArrayList {
     }
 
     public static void reverseArray(String arr[]){
-        List<String> list = Arrays.asList(arr);
+        List<String> list = Arrays.asList(arr); //string array convert to list
 
-        Collections.reverse(list);
+        Collections.reverse(list); //reverse the string list
 
-        String[] reversedArray=list.toArray(arr);
+        String[] reversedArray=list.toArray(arr); //list convert to string array
 
         System.out.println("Reverse Array: "+Arrays.toString(reversedArray));
     }

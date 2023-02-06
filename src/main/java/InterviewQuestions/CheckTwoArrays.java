@@ -10,6 +10,7 @@ public class CheckTwoArrays {
 
         boolean status = Arrays.equals(a,b);
 
+
         if (status==true){
             System.out.println("Two Arrays are Equal");
         }else {

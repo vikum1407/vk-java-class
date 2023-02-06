@@ -3,6 +3,15 @@ package StringQues;
 public class StringBufferMethods {
     public static void main(String[] args) {
 
+        /*
+        *   String Buffer Methods:-
+        *       * append()
+        *       * insert()
+        *       * replace()
+        *       * delete()
+        *       * reverse()
+        * */
+
         // 01. Appen() method
         StringBuffer sb = new StringBuffer("Hello ");
         sb.append("Vikum");

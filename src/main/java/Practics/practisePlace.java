@@ -1,32 +1,28 @@
 package Practics;
 
-import sun.awt.image.ImageWatched;
-
+import javax.xml.stream.events.Characters;
 import java.util.*;
+import java.util.regex.Pattern;
 
 public class practisePlace {
 
-
     public static void main(String[] args) {
 
-       //find duplicate value from string
-        String stro[] = {"java", "c","c++","ph"};
+        String str = "WelcoMe VikuM";
 
-        boolean flag=false;
+        int lowerCount=0;
+        int upperCount=0;
 
-        HashSet hs = new HashSet();
-
-        for (String str:stro){
-            if (hs.add(str)==false){
-                System.out.println("Duplicate "+str);
-                flag=true;
+        for (int i=0; i<str.length(); i++){
+            char ch = str.charAt(i);
+            if (ch>='A' && ch<='Z'){
+                upperCount++;
+            }else {
+                lowerCount++;
             }
-
-            }
-        if (flag==false){
-            System.out.println("Not");
         }
 
-
+        System.out.println("Upper Character Count: "+upperCount);
+        System.out.println("Lower Character Count: "+lowerCount);
     }
 }

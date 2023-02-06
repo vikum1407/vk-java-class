@@ -1,5 +1,9 @@
 package InterviewQuestions;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class ReverseWordInSentence {
@@ -19,12 +23,19 @@ public class ReverseWordInSentence {
 
         // Iterate over the temp array and store
         // the string in reverse order.
-        for (int i = 0; i < temp.length; i++) {
+        /*for (int i = 0; i < temp.length; i++) {
             if (i == temp.length - 1)
                 result = temp[i] + result;
             else
                 result = " " + temp[i] + result;
-        }
+        }*/
+
+        List<String> ls = new ArrayList<>(Arrays.asList(temp));
+        Collections.reverse(ls);
+
+        //StringBuilder sb = new StringBuilder(temp);
+        result = result + ls;
+
         return result;
     }
 

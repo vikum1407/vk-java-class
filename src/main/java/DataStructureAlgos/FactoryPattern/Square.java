@@ -1,6 +1,8 @@
-package DataStructureAlgos.SingltonPattern;
+package DataStructureAlgos.FactoryPattern;
 
-public class Square implements Shape{
+import DataStructureAlgos.FactoryPattern.Shape;
+
+public class Square implements Shape {
 
     public void draw(){
         System.out.println("This is Square shape");

@@ -21,7 +21,5 @@ public class StringPalindrome {
         {
             System.out.println("The string" + str + " is not a Palindrome String.");
         }
-
-
     }
 }

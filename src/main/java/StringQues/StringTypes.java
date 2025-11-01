@@ -8,7 +8,7 @@ public class StringTypes {
         String:-
                 * String is immutable [String following the string literal concept]
                 * String is slow and consumes more memory, because when we concatenate too many strings every time it's create new instance
-                * You can compare two string using equal() method. because string class override my object class
+                * You can compare two string using equal() method. because string class override by object class
                 * String using consent pool
 
         String Buffer:-

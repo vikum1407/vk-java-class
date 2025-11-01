@@ -14,7 +14,7 @@ public class PalindromeNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number Series: ");
 
-        //Get the user enteres number into the 'num' variable
+        //Get the user enters number into the 'num' variable
         int num=sc.nextInt();
 
         int originalNum=num;

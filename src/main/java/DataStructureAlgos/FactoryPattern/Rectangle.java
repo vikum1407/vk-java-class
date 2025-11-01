@@ -1,6 +1,8 @@
-package DataStructureAlgos.SingltonPattern;
+package DataStructureAlgos.FactoryPattern;
 
-public class Rectangle implements Shape{
+import DataStructureAlgos.FactoryPattern.Shape;
+
+public class Rectangle implements Shape {
 
     public void draw(){
         System.out.println("This is Rectangle shape");

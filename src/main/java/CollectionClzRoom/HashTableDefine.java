@@ -29,7 +29,7 @@ public class HashTableDefine {
         ht1.remove(1001);
         System.out.println("After Removing: "+ht1);
 
-        //Check particualr key is present or not
+        //Check particular key is present or not
         System.out.println("Is there or not: "+ht1.containsKey(104)); //true
 
         System.out.println("Is there the value or not: "+ht1.containsValue("WED"));

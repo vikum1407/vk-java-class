@@ -1,6 +1,6 @@
 package InterfacePractics;
 
-    /* Interface Importants :-
+    /* Interface Important :-
     *   -  All variable should be Final or Static. no need to mention
     *   -  All method should Abstract. it means no implementations
     *   -  All method by default Public

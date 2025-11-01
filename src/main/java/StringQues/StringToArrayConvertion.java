@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class StringToArrayConvertion {
 
     public static String convertArrayToString(String[] strArray){
+
         return Arrays.toString(strArray);
     }
 

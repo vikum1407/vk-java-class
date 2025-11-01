@@ -1,4 +1,7 @@
-package DataStructureAlgos.SingltonPattern;
+package DataStructureAlgos.FactoryPattern;
+
+import DataStructureAlgos.FactoryPattern.Shape;
+import DataStructureAlgos.FactoryPattern.ShapeFactory;
 
 public class FactoryPatternCliendCode {
 

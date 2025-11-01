@@ -16,7 +16,7 @@ public class ReverseWordInSentence {
         Pattern pattern = Pattern.compile("\\s");
 
         // splitting String str with a pattern
-        // (i.e )splitting the string whenever their
+        // (i.e )splitting the string whenever there
         // is whitespace and store in temp array.
         String[] temp = pattern.split(str);
         String result = "";

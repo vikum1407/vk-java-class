@@ -1,4 +1,4 @@
-package DataStructureAlgos.SingltonPattern;
+package DataStructureAlgos.FactoryPattern;
 
 public class ShapeFactory {
 

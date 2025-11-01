@@ -13,7 +13,7 @@ interface P1{
 interface P2{                                    /*but keyword is "Extend" for get the details from A1 class to Hybride class */
     void m3();                                                                                  /*HybrideInterface*/
 }
-public class HybrideInheritance extends A1 implements P1, P2 {      /*here bybrideInterface class must have all feature from A1 calss, P1 and P2 interfaces*/
+public class HybrideInheritance extends A1 implements P1, P2 {      /*here HybrideInterface class must have all feature from A1 calss, P1 and P2 interfaces*/
     @Override
     public void m2() {
         System.out.println("this is m2 from P1 interface");

@@ -19,7 +19,7 @@ public class PrimeNumber {
                 if (num % i == 0)
                     count++;        // Here count each number got 0 mode
             }
-                    if (count==2){  //Here, there are more than 2 value for the related value it is not a prime numner
+                    if (count==2){  //Here, there are more than 2 value for the related value it is not a prime number
                         System.out.println("This is a Prime Number");
                     }else {
                         System.out.println("This is not a Prime Number"); //because there are more than 2 factors

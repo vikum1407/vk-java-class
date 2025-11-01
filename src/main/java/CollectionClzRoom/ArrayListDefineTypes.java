@@ -8,7 +8,7 @@ public class ArrayListDefineTypes {
     //Declare ArrayList
     ArrayList al = new ArrayList();
     /*
-    *   * Here we can store hetrogenius data(any kind of data type u can store)
+    *   * Here we can store heterogeneous data(any kind of data type u can store)
     *   * Insertion order preserved
     *   * Duplicate value u can store
     * */
@@ -17,7 +17,7 @@ public class ArrayListDefineTypes {
     ArrayList<String> al2 = new ArrayList<String>(); //String type data only you can store here
     ArrayList<Integer> ing = new ArrayList<Integer>(); //Int type data only can store here
 
-    //ArrayList is a class and it's develop user List interface. so you define arraylist as follows
+    //ArrayList is a class, and it's develop user List interface. so you define arraylist as follows
     List al3 = new ArrayList();
 
 }

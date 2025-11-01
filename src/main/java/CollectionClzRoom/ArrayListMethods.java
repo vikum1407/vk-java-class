@@ -25,7 +25,7 @@ public class ArrayListMethods {
          *   - Collections.sort(collection c) -> To sort a collection on ascending order
          *   - Collections.sort(collection c, Collections.reverseOrder()) -> To sort a collection from descending order
          *
-         *   ----Data retrieve from ArrayList
+         *   ---Data retrieve from ArrayList
          * * Here explain how to read the data from ArrayList
          *   1. for loop
          *   2. for .. each loop

@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class StringAnagram {
     /*
-     * Angram meant, a string have same characters but different meaning or meanless(different arrangement)
+     * Anagram meant, a string have same characters but different meaning or meanness(different arrangement)
      *
      * */
 

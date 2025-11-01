@@ -50,7 +50,7 @@ public class HashMashMethods {
             System.out.println("Using for loop with int,string HashMap"+ky);
         }
 
-        for (Object ky:hs.keySet()){ //here ur hashMap is initialize as common u need to convert in to Object in for loop
+        for (Object ky:hs.keySet()){ //here ur hashMap is initialized as common u need to convert in to Object in for loop
             System.out.println("Using for loop with common HashMap"+ky);
         }
 

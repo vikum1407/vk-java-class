@@ -9,8 +9,8 @@ public class LinkedListMethods {
         /*
          *   LinkedList -
          *   - It's duplicate value is accepted
-         *   - Hetrogenius data allowed
-         *   - Insetion order is preserved
+         *   - Heterogeneous data allowed
+         *   - Insertion order is preserved
          *
          *  **** LinkedList mostly use for insertion due to it's saving between value's address
          *
@@ -21,7 +21,7 @@ public class LinkedListMethods {
          *   - ll.set() -> To replace
          *   - ll.contains() -> To check the element
          *   - ll.containsAll() -> To compare two LinkedList
-         *   - ll.isEnable() -> To check the list is emptyness
+         *   - ll.isEnable() -> To check the list is emptiness
          *   - ll.removeAll() -> To remove collection
          *
          * Special Methods -

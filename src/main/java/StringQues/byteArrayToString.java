@@ -9,7 +9,7 @@ public class byteArrayToString {
         System.out.println(s_byte);
 
         byte[] byte_arr1 = {71, 101, 101, 107, 115};
-        String s_byte1 = new String(byte_arr,0,2);
+        String s_byte1 = new String(byte_arr1,0,2);
         System.out.println(s_byte1);
     }
 }

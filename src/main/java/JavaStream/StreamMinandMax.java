@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class StreamMin {
+public class StreamMinandMax {
     public static void main(String[] args) {
 
         /**
@@ -14,6 +14,9 @@ public class StreamMin {
         List<Integer> noList = Arrays.asList(23,43,11,31,51,56);
 
         Optional<Integer> min = noList.stream().min((val1, val2)-> {return val1.compareTo(val2);});
-        System.out.println(min.get());
+        System.out.println("Min: "+min.get());
+
+        Optional<Integer> max = noList.stream().max((val, val2)-> { return val.compareTo(val2);});
+        System.out.println("Max: "+max.get());
     }
 }

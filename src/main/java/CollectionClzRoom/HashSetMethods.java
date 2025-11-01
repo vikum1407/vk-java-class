@@ -12,13 +12,14 @@ public class HashSetMethods {
          *   Hashset Characteristic:-
          *       - Duplicates are not allowed
          *       - Insertion order is not preserved
-         *       - Hectrogenuius data supported
+         *       - Heterogeneous data supported
          *       - Null supported
          *
          *   Hashset Methods:-
+         * * There is no 'get()' method in Set() So you can't get the specific element from Set(). only you can use Iterator or
+         *   foreach loop to take.
          *       - hs.add()
          *       - hs.addAll()
-         *       - hs.get()
          *       - hs.set()
          *       - hs.remove()
          *       - hs.removeAll()
@@ -57,7 +58,7 @@ public class HashSetMethods {
         hs.remove(100);
         System.out.println("After removing: "+hs);
 
-        //Perticular element is present or not
+        //Particular element is present or not
         System.out.println("Element is Present or Not: "+hs.contains("viku"));
 
         //isEmpty

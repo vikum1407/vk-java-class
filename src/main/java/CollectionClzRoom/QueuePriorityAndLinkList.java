@@ -8,9 +8,9 @@ public class QueuePriorityAndLinkList {
 
         /*
         *   Differences Between PriorityQueue and LinkedList
-        *       - Duplicate allwoed
+        *       - Duplicate allowed
         *       - Insertion order is preserved
-        *       - Heterogenious data allow for LinkedList but Not for PriorityQueue
+        *       - Heterogeneous data allow for LinkedList but Not for PriorityQueue
         *
         * */
 
